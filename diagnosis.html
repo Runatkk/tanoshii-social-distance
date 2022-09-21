@@ -1,0 +1,195 @@
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+
+<title>YesNo診断</title>
+<meta name="outbrain-crawl" content="no-rec">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" href="diagnosis.css" type="text/css">
+<link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+</head>
+<body>
+    <header>
+         <img src="head.png">
+    </header>
+    
+    <div id="wrapper">
+        <a href="index.html" class="btn-stitch">Topに戻る</a>
+        <main>
+            <article id="pageBody">
+                <ul class="qalist wf-mplus1p">
+    
+                <li id="1" class="question">
+                    <a name="#1"></a>
+                    <div class="qbox"><span  class="q">Q.</span>運動が好き</div>
+                    <div class="qabox">
+                        <a href="#2" onclick="show(2)" class="qabtn"><div class="btnBox btnBox_y">はい</div></a>
+                        <a href="#3" onclick="show(3)" class="qabtn"><div class="btnBox btnBox_n">いいえ</div></a>
+                    </div>
+                </li>
+                <li id="2" class="question" style="display:none;">
+                    <a name="#"></a>
+                    <div class="qbox"><span  class="q">Q.</span>普段の移動距離は多い方だ</div>
+                    <div class="qabox">
+                        <a href="#101" onclick="show(101)" class="qabtn"><div class="btnBox btnBox_y">はい</div></a>
+                        <a href="#4" onclick="show(4)" class="qabtn"><div class="btnBox btnBox_n">いいえ</div></a>
+                    </div>
+                </li>
+                <li id="3" class="question" style="display:none;">
+                    <a name="#"></a>
+                    <div class="qbox"><span  class="q">Q.</span>友達とカフェをするのが</div>
+                    <div class="qabox">
+                        <a href="#103" onclick="show(103)" class="qabtn"><div class="btnBox btnBox_y">好き</div></a>
+                        <a href="#104" onclick="show(104)" class="qabtn"><div class="btnBox btnBox_n">ふつう</div></a>
+                    </div>
+                </li>
+                <li id="4" class="question" style="display:none;">
+                    <a name="#"></a>
+                    <div class="qbox"><span  class="q">Q.</span>よく道を尋ねられる</div>
+                    <div class="qabox">
+                        <a href="#102" onclick="show(102)" class="qabtn"><div class="btnBox btnBox_y">はい</div></a>
+                        <a href="#105" onclick="show(105)" class="qabtn"><div class="btnBox btnBox_n">いいえ</div></a>
+                    </div>
+                </li>
+    
+    
+    
+    
+                </ul>
+    
+                <div class="answerList">
+    
+                    <div id="101" style="display:none;" class="answer point_box">
+                        <div class="box">
+                            <div class="title">
+                            <p>あなたへのオススメは<span class="fs-18"><span class="bg-y">"みっけ！"</span></span>！</p>
+                            </div>
+                        <div class="txt">
+                            <div class="img"><img src="101.png"></div>
+                            <p>
+                                時間に余裕を持って、電車を使わずに歩いてみよう！<br>
+                                街の中で文字や形を見つけて、”ソーシャルディスタンス”の文字を完成させよう！<br>
+                                自転車に乗るときは、20Mの間隔をあけるよう注意しよう！<br>
+                                明るめの色の服をきたり、目立つリュックを身につけるとラッキーなことがあるかも！<br>
+                            </p>
+                            <p><a href="#" class="square_btn">もう一度診断する</a></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="105" style="display:none;" class="answer point_box">
+                        <div class="box">
+                            <div class="title">
+                            <p>あなたへのオススメは<span class="fs-18"><span class="bg-y">マスク作り</span></span>です！</p>
+                            </div>
+                        <div class="txt">
+                            <div class="img"><img src="105.png"></div>
+                            <p>
+                                <a href="https://yamahack.com/1521" >バフ</a>やネックゲイターを使ってオリジナルのマスクをつくってみよう！<br>
+                                家族や友達にプレゼントしてもいいかも！<br>
+                                走っている人の真後ろにいかないよう注意しながら安全にジョギングを楽しもう<br>
+                                マスクの作り方は、ぜひこの動画を参考にしてみてね！<br>
+                                山中伸弥先生によるジョギングエチケットは<a href="https://www.youtube.com/watch?time_continue=7&v=sO1BmlMij8c&feature=emb_logo">こちらから</a>
+                            </p>
+                            <p><a href="#" class="square_btn">もう一度診断する</a></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="103" style="display:none;" class="answer point_box">
+                        <div class="box">
+                            <div class="title">
+                            <p>あなたへのオススメは<span class="fs-18"><span class="bg-y">折り畳み椅子</span></span>！</p>
+                            </div>
+                        <div class="txt">
+                            <div class="img"><img src="103.png"></div>
+                            <p>お昼休み、外でお友達とピクニックをしよう！<br>
+                                向かいあわず横並びで座ったり、ぜひ工夫をしてみてね<br>
+                                外の空気を吸ってリフレッシュすれば、授業に集中できること間違いなし！<br>
+                                軽めの折りたたみ椅子を持ち歩けば、外でも座っておしゃべりできるね<br>
+                                よくコンビニや食堂、ファミレスを利用している人はこれを機にぜひお弁当を作ってみてね。<br>
+                                コンビニを利用する人は、混んでいない場所・時間帯であらかじめ買っておこう！<br>
+                            </p>
+                            <p><a href="#" class="square_btn">もう一度診断する</a></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="104" style="display:none;" class="answer point_box">
+                        <div class="box">
+                            <div class="title">
+                            <p>あなたへのオススメは<span class="fs-18"><span class="bg-y">お散歩</span></span>！</p>
+                            </div>
+                        <div class="txt">
+                            <div class="img"><img src="104.png"></div>
+                            <p>
+                                休日など、時間を作ってお散歩をしよう<br>
+                                その時に、自然のなかでの"ソーシャルディスタンス"を見つけてみよう！<br>
+                                見つけられたら、写真をとって家族や友達にシェアしよう<br>
+                            </p>
+                            <p><a href="#" class="square_btn">もう一度診断する</a></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="102" style="display:none;" class="answer point_box">
+                        <div class="box">
+                            <div class="title">
+                            <p>あなたはきっと<span class="fs-18"><span class="bg-y">親切な人</span></span></p>
+                            </div>
+                        <div class="txt">
+                            <div class="img"><img src="102.png"></div>
+                            <p>
+                                ソーシャルディスタンスの重要性が高まる中、不安を感じている人もいます。<br>
+                                目が不自由な人、足が不自由な人、、誰かの支えが必要な人はたくさんいます。<br>
+                                「街中で声をかけてくれる人が減り、様子がわからなくなった」という声は多く上がっています。<br>
+                                普段なら声をかけていても、この状況だから「声をかけていいのかわからない」と感じている人もいると思います。<br>
+                                そこの判断は難しいですが、あなたならうまく見極められるかも！<br>
+                                真正面に立たず少し距離をとるなど工夫をし、助けが必要か話しかけてみてください。<br>
+                                アルコールジェルに加え、フェイスガード、手袋などあるとお互い安心ですね！<br>
+                            </p>
+                            <p><a href="#" class="square_btn">もう一度診断する</a></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(function(){
+   $('a[href^=#]').click(function() {
+      var speed = 600;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+$(function(){
+    h = $(window).height();
+    h = h-30;
+    $(".question").css("min-height", h + "px");
+    $(".answerList .box").css("min-height", h + "px");
+    
+});
+function show(idName){ 
+    $("#" + idName).show();
+}
+
+</script>
+
+
+</body>
+</html>
